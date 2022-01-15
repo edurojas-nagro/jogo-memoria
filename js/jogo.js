@@ -1,16 +1,21 @@
 $(document).ready(()=>{
     
     //função randomica para carregar as img
-    let todasasIMG = document.querySelectorAll(".card-imagem img")
     let valorRandom = Math.floor(Math.random() * 3) + 1
     console.log(valorRandom)
 
-    if(valorRandom == 1){
-        $("#game2, #game3").remove()
-    }else if(valorRandom == 2){
-        $("#game1, #game3").remove()
-    }else if(valorRandom == 3){
-        $("#game2, #game1").remove()
+    switch(valorRandom){
+        case 1: 
+            $("#game2, #game3").remove()
+        break
+
+        case 2: 
+            $("#game1, #game3").remove()
+        break
+
+        case 3: 
+            $("#game2, #game1").remove()
+        break
     }
 
     // Programação do game...
