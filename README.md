@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="img/card-memoria-capa.jpg" alt="capa" width="40%" align="center" />
+  <img src="img/card-memoria-capa.jpg" alt="capa" width="50%" align="center" />
   Jogo de Memoria
 </h1>
 <p>
